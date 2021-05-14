@@ -14,7 +14,7 @@ const Timeline = () => {
     for (let polity in polities) {
       nameCollection.push(polity);
     }
-    nameCollection.sort((a, b) => a - b);
+    nameCollection.sort();
 
     const result = [];
     for (let name of nameCollection) {
