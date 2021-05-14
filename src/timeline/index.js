@@ -1,30 +1,43 @@
 import { useState } from "react";
 import { Select, MenuItem } from "@material-ui/core";
+import { fixDate } from "./util";
 import { leaders, polities } from "../assets";
 import "./timeline.css";
 
 const Timeline = () => {
   const [selectedPolity, setSelectedPolity] = useState("");
-  function choosePolity() {
+
+  const selectPolity = (event) => setSelectedPolity(event.target.value);
+
+  const choosePolity = () => {
     const result = [];
     for (let polity in polities) {
       result.push(<MenuItem value={polity}>{polity}</MenuItem>);
     }
     return result;
-  }
-  const selectPolity = (event) => setSelectedPolity(event.target.value);
+  };
 
   const fillLeaders = (selectedPolity) => {
     const selectedLeaders = leaders
       .filter((l) => l.polity === selectedPolity)
       .sort((a, b) => {
+        if (a.start === b.start) {
+          if (a.end === b.end) {
+            try {
+              return a.order - b.order;
+            } catch {
+              return a.end - b.end;
+            }
+          }
+          return a.end - b.end;
+        }
         return a.start - b.start;
       });
 
     return selectedLeaders.map((l) => (
       <div>
         <a href={l.link} target="_blank" rel="noreferrer">
-          {l.name} : {l.start} - {l.end}
+          {l.name} : {fixDate(l.start)} - {fixDate(l.end)}
         </a>
       </div>
     ));
