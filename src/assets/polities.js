@@ -1,4 +1,7 @@
 const polities = {
+  Maurya: {
+    name: "Maurya",
+  },
   Rome: {
     name: "Rome",
   },
