@@ -3,6 +3,7 @@
 //end is end of reign
 
 const leaders = [
+  //Rome
   {
     name: "Augustus",
     polity: "Rome",
@@ -160,6 +161,88 @@ const leaders = [
     link: "https://en.wikipedia.org/wiki/Caracalla",
   },
   {
+    name: "Geta",
+    polity: "Rome",
+    start: 211,
+    end: 212,
+    link: "https://en.wikipedia.org/wiki/Geta_(emperor)",
+  },
+  {
+    name: "Macrinus",
+    polity: "Rome",
+    start: 217,
+    end: 218,
+    link: "https://en.wikipedia.org/wiki/Macrinus",
+  },
+  {
+    name: "Diadumenian",
+    polity: "Rome",
+    start: 218,
+    end: 218,
+    link: "https://en.wikipedia.org/wiki/Diadumenian",
+  },
+  {
+    name: "Elagabalus",
+    polity: "Rome",
+    start: 218,
+    end: 222,
+    link: "https://en.wikipedia.org/wiki/Elagabalus",
+  },
+  {
+    name: "Severus Alexander",
+    polity: "Rome",
+    start: 222,
+    end: 235,
+    link: "https://en.wikipedia.org/wiki/Severus_Alexander",
+  },
+  {
+    name: "Maximinus Thrax",
+    polity: "Rome",
+    start: 235,
+    end: 238,
+    link: "https://en.wikipedia.org/wiki/Maximinus_Thrax",
+  },
+  {
+    name: "Gordian I",
+    polity: "Rome",
+    start: 238,
+    end: 238,
+    order: 1,
+    link: "https://en.wikipedia.org/wiki/Gordian_I",
+  },
+  {
+    name: "Gordian II",
+    polity: "Rome",
+    start: 238,
+    end: 238,
+    order: 2,
+    link: "https://en.wikipedia.org/wiki/Gordian_II",
+  },
+  {
+    name: "Pupienus",
+    polity: "Rome",
+    start: 238,
+    end: 238,
+    order: 3,
+    link: "https://en.wikipedia.org/wiki/Pupienus",
+  },
+  {
+    name: "Balbinus",
+    polity: "Rome",
+    start: 238,
+    end: 238,
+    order: 4,
+    link: "https://en.wikipedia.org/wiki/Balbinus",
+  },
+  {
+    name: "Gordian III",
+    polity: "Rome",
+    start: 238,
+    end: 244,
+    link: "https://en.wikipedia.org/wiki/Gordian_III",
+  },
+  //Maurya
+  {
     name: "Chandragupta Maurya",
     polity: "Maurya",
     start: -320,
@@ -229,6 +312,7 @@ const leaders = [
     end: -179,
     link: "https://en.wikipedia.org/wiki/Brihadratha_Maurya",
   },
+  //China
   {
     name: "Wang Mang",
     polity: "China",
