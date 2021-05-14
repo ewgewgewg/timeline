@@ -241,6 +241,27 @@ const leaders = [
     end: 244,
     link: "https://en.wikipedia.org/wiki/Gordian_III",
   },
+  {
+    name: "Philip the Arab",
+    polity: "Rome",
+    start: 244,
+    end: 249,
+    link: "https://en.wikipedia.org/wiki/Philip_the_Arab",
+  },
+  {
+    name: "Philip II",
+    polity: "Rome",
+    start: 247,
+    end: 249,
+    link: "https://en.wikipedia.org/wiki/Philip_II_(Roman_emperor)",
+  },
+  {
+    name: "Decius",
+    polity: "Rome",
+    start: 249,
+    end: 251,
+    link: "https://en.wikipedia.org/wiki/Decius",
+  },
   //Maurya
   {
     name: "Chandragupta Maurya",
