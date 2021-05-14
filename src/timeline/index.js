@@ -10,9 +10,15 @@ const Timeline = () => {
   const selectPolity = (event) => setSelectedPolity(event.target.value);
 
   const choosePolity = () => {
-    const result = [];
+    const nameCollection = [];
     for (let polity in polities) {
-      result.push(<MenuItem value={polity}>{polity}</MenuItem>);
+      nameCollection.push(polity);
+    }
+    nameCollection.sort((a, b) => a - b);
+
+    const result = [];
+    for (let name of nameCollection) {
+      result.push(<MenuItem value={name}>{name}</MenuItem>);
     }
     return result;
   };
