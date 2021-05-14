@@ -5,6 +5,9 @@ const polities = {
   Rome: {
     name: "Rome",
   },
+  France: {
+    name: "France",
+  },
   China: {
     name: "China",
   },

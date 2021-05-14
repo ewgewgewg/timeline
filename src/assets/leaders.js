@@ -3,6 +3,42 @@
 //end is end of reign
 
 const leaders = [
+  //France
+  {
+    name: "Henry IV",
+    polity: "France",
+    start: 1589,
+    end: 1610,
+    link: "https://en.wikipedia.org/wiki/Henry_IV_of_France",
+  },
+  {
+    name: "Louis XIII",
+    polity: "France",
+    start: 1610,
+    end: 1643,
+    link: "https://en.wikipedia.org/wiki/Louis_XIII_of_France",
+  },
+  {
+    name: "Louis XIV",
+    polity: "France",
+    start: 1643,
+    end: 1715,
+    link: "https://en.wikipedia.org/wiki/Louis_XIV_of_France",
+  },
+  {
+    name: "Louis XV",
+    polity: "France",
+    start: 1715,
+    end: 1774,
+    link: "https://en.wikipedia.org/wiki/Louis_XV_of_France",
+  },
+  {
+    name: "Louis XVI",
+    polity: "France",
+    start: 1774,
+    end: 1792,
+    link: "https://en.wikipedia.org/wiki/Louis_XVI_of_France",
+  },
   //Rome
   {
     name: "Augustus",
