@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Select, MenuItem } from "@material-ui/core";
+import "./App.css";
+import Timeline from "./timeline";
 
 function App() {
+  const [columns, setColumns] = useState(2);
+  const selectColumns = (event) => setColumns(event.target.value);
+
+  const makeColumns = () => {
+    return new Array(columns).fill().map((a) => <Timeline />);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="selectColumns">
+        <Select value={columns} onChange={selectColumns}>
+          <MenuItem value={1}>One</MenuItem>
+          <MenuItem value={2}>Two</MenuItem>
+          <MenuItem value={3}>Three</MenuItem>
+          <MenuItem value={4}>Four</MenuItem>
+          <MenuItem value={5}>Five</MenuItem>
+        </Select>
+      </div>
+      <div className="body">{makeColumns()}</div>
     </div>
   );
 }
