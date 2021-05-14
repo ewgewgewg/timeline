@@ -2,7 +2,7 @@
 //start is start of reign
 //end is end of reign
 
-const leaders = [
+const leaderPeriods = [
   //France
   {
     name: "Henry IV",
@@ -469,6 +469,34 @@ const leaders = [
     end: 1991,
     link: "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
   },
+  {
+    name: "Boris Yeltsin",
+    polity: "Russia",
+    start: 1991,
+    end: 1999,
+    link: "https://en.wikipedia.org/wiki/Boris_Yeltsin",
+  },
+  {
+    name: "Vladimir Putin",
+    polity: "Russia",
+    start: 1999,
+    end: 2008,
+    link: "https://en.wikipedia.org/wiki/Vladimir_Putin",
+  },
+  {
+    name: "Dimitry Medvedev",
+    polity: "Russia",
+    start: 2008,
+    end: 2012,
+    link: "https://en.wikipedia.org/wiki/Dmitry_Medvedev",
+  },
+  {
+    name: "Vladimir Putin",
+    polity: "Russia",
+    start: 2012,
+    end: "At Least 2021",
+    link: "https://en.wikipedia.org/wiki/Vladimir_Putin",
+  },
   //Maurya
   {
     name: "Chandragupta Maurya",
@@ -655,4 +683,4 @@ const leaders = [
   },
 ];
 
-export default leaders;
+export default leaderPeriods;

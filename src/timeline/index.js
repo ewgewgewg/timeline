@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Select, MenuItem } from "@material-ui/core";
 import { fixDate } from "./util";
-import { leaders, polities } from "../assets";
+import { leaderPeriods, polities } from "../assets";
 import "./timeline.css";
 
 const Timeline = () => {
@@ -24,7 +24,7 @@ const Timeline = () => {
   };
 
   const fillLeaders = (selectedPolity) => {
-    const selectedLeaders = leaders
+    const selectedLeaders = leaderPeriods
       .filter((l) => l.polity === selectedPolity)
       .sort((a, b) => {
         if (a.start === b.start) {

@@ -1,4 +1,4 @@
-import leaders from "./leaders";
+import leaderPeriods from "./leaderPeriods";
 import polities from "./polities";
 
-export { leaders, polities };
+export { leaderPeriods, polities };
