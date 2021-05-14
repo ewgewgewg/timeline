@@ -1,6 +1,9 @@
 .selectColumns {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  padding: 0 35%;
 }
 
 .body {
