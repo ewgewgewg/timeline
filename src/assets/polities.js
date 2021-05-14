@@ -11,6 +11,9 @@ const polities = {
   China: {
     name: "China",
   },
+  Russia: {
+    name: "Russia",
+  },
 };
 
 export default polities;

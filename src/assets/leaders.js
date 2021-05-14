@@ -1,4 +1,4 @@
-//from Wikipedia May 13, 2021 unless otherwise stated
+//from Wikipedia May 13-14, 2021 unless otherwise stated
 //start is start of reign
 //end is end of reign
 
@@ -297,6 +297,105 @@ const leaders = [
     start: 249,
     end: 251,
     link: "https://en.wikipedia.org/wiki/Decius",
+  },
+  //Russia
+  {
+    name: "Peter I the Great",
+    polity: "Russia",
+    start: 1721,
+    end: 1725,
+    link: "https://en.wikipedia.org/wiki/Peter_the_Great",
+  },
+  {
+    name: "Catherine I",
+    polity: "Russia",
+    start: 1725,
+    end: 1727,
+    link: "https://en.wikipedia.org/wiki/Catherine_I_of_Russia",
+  },
+  {
+    name: "Peter II",
+    polity: "Russia",
+    start: 1727,
+    end: 1730,
+    link: "https://en.wikipedia.org/wiki/Peter_II_of_Russia",
+  },
+  {
+    name: "Anna Ioannovna",
+    polity: "Russia",
+    start: 1730,
+    end: 1740,
+    link: "https://en.wikipedia.org/wiki/Anna_of_Russia",
+  },
+  {
+    name: "Ivan VI",
+    polity: "Russia",
+    start: 1740,
+    end: 1741,
+    link: "https://en.wikipedia.org/wiki/Ivan_VI_of_Russia",
+  },
+  {
+    name: "Elizabeth Petrovna",
+    polity: "Russia",
+    start: 1741,
+    end: 1761,
+    link: "https://en.wikipedia.org/wiki/Elizabeth_Petrovna",
+  },
+  {
+    name: "Peter III",
+    polity: "Russia",
+    start: 1761,
+    end: 1762,
+    link: "https://en.wikipedia.org/wiki/Peter_III_of_Russia",
+  },
+  {
+    name: "Catherine II the Great",
+    polity: "Russia",
+    start: 1762,
+    end: 1796,
+    link: "https://en.wikipedia.org/wiki/Catherine_the_Great",
+  },
+  {
+    name: "Paul I",
+    polity: "Russia",
+    start: 1796,
+    end: 1801,
+    link: "https://en.wikipedia.org/wiki/Paul_I_of_Russia",
+  },
+  {
+    name: "Alexander I",
+    polity: "Russia",
+    start: 1801,
+    end: 1825,
+    link: "https://en.wikipedia.org/wiki/Alexander_I_of_Russia",
+  },
+  {
+    name: "Nicholas I",
+    polity: "Russia",
+    start: 1825,
+    end: 1855,
+    link: "https://en.wikipedia.org/wiki/Nicholas_I_of_Russia",
+  },
+  {
+    name: "Alexander II",
+    polity: "Russia",
+    start: 1855,
+    end: 1881,
+    link: "https://en.wikipedia.org/wiki/Alexander_II_of_Russia",
+  },
+  {
+    name: "Alexander III",
+    polity: "Russia",
+    start: 1881,
+    end: 1894,
+    link: "https://en.wikipedia.org/wiki/Alexander_III_of_Russia",
+  },
+  {
+    name: "Nicolas II",
+    polity: "Russia",
+    start: 1894,
+    end: 1917,
+    link: "https://en.wikipedia.org/wiki/Nicholas_II_of_Russia",
   },
   //Maurya
   {
