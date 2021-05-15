@@ -11,6 +11,9 @@ const flows = {
   Poland: {
     name: "Poland",
   },
+  "Jagiellonian Dynasty": {
+    name: "Jagiellonian Dynasty",
+  },
   Russia: {
     name: "Russia",
   },
