@@ -1143,13 +1143,6 @@ const leaderPeriods = [
     link: "https://en.wikipedia.org/wiki/Emperor_Daizong_of_Tang_China",
   },
   {
-    name: "Emperor Daizong",
-    flows: { China: true, "Tang Dynasty": true },
-    start: 762,
-    end: 779,
-    link: "https://en.wikipedia.org/wiki/Emperor_Daizong_of_Tang_China",
-  },
-  {
     name: "Emperor Dezong",
     flows: { China: true, "Tang Dynasty": true },
     start: 780,

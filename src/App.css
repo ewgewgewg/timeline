@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 60%;
-  padding: 0 35%;
+  width: 80%;
+  padding: 0 10%;
 }
 
 .header {
@@ -12,6 +12,8 @@
 }
 
 .utilities {
+  width: 1000px;
+  background-color: yellow;
   display: flex;
   justify-content: center;
   padding: 2%;
