@@ -1,4 +1,4 @@
-const polities = {
+const flows = {
   Maurya: {
     name: "Maurya",
   },
@@ -16,4 +16,4 @@ const polities = {
   },
 };
 
-export default polities;
+export default flows;

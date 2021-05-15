@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <div className="selectColumns">
-        <div>Select Number of Columns</div>
+        <div>Select Number of Columns, Then Flow Display</div>
         <Select value={columns} onChange={selectColumns}>
           <MenuItem value={1}>One</MenuItem>
           <MenuItem value={2}>Two</MenuItem>

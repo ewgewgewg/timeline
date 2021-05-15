@@ -1,18 +1,18 @@
 import { useState } from "react";
 import { Select, MenuItem } from "@material-ui/core";
 import { fixDate } from "./util";
-import { leaderPeriods, polities } from "../assets";
+import { leaderPeriods, flows } from "../assets";
 import "./timeline.css";
 
 const Timeline = () => {
-  const [selectedPolity, setSelectedPolity] = useState("");
+  const [selectedFlow, setSelectedFlow] = useState("");
 
-  const selectPolity = (event) => setSelectedPolity(event.target.value);
+  const selectFlow = (event) => setSelectedFlow(event.target.value);
 
-  const choosePolity = () => {
+  const flowChoices = () => {
     const nameCollection = [];
-    for (let polity in polities) {
-      nameCollection.push(polity);
+    for (let flow in flows) {
+      nameCollection.push(flow);
     }
     nameCollection.sort();
 
@@ -23,9 +23,9 @@ const Timeline = () => {
     return result;
   };
 
-  const fillLeaders = (selectedPolity) => {
+  const fillLeaders = (selectedFlow) => {
     const selectedLeaders = leaderPeriods
-      .filter((l) => l.polity === selectedPolity)
+      .filter((l) => l.polity === selectedFlow)
       .sort((a, b) => {
         if (a.start === b.start) {
           if (a.end === b.end) {
@@ -51,11 +51,11 @@ const Timeline = () => {
 
   return (
     <div className="timeline">
-      <Select value={selectedPolity} onChange={selectPolity}>
+      <Select value={selectedFlow} onChange={selectFlow}>
         <MenuItem value="">None</MenuItem>
-        {choosePolity()}
+        {flowChoices()}
       </Select>
-      <div className="timelineScroll">{fillLeaders(selectedPolity)}</div>
+      <div className="timelineScroll">{fillLeaders(selectedFlow)}</div>
     </div>
   );
 };
