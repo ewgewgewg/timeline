@@ -29,6 +29,9 @@ const flows = {
   "Han Dynasty": {
     name: "Han Dynasty",
   },
+  "Tang Dynasty": {
+    name: "Tang Dynasty",
+  },
 };
 
 export default flows;
