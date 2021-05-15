@@ -20,6 +20,9 @@ const flows = {
   "Soviet Union": {
     name: "Soviet Union",
   },
+  Ottoman: {
+    name: "Ottoman",
+  },
   Magadha: {
     name: "Magadha",
   },
