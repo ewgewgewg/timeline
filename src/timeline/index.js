@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Select, MenuItem, ListItem } from "@material-ui/core";
-import { fixDate } from "./util";
+import { Select, MenuItem } from "@material-ui/core";
+import { fixDate } from "../util";
 import { leaderPeriods, flows } from "../assets";
 import "./timeline.css";
 

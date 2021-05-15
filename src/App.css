@@ -2,8 +2,23 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 30%;
+  width: 60%;
   padding: 0 35%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.utilities {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.year {
+  padding-right: 5px;
 }
 
 .body {
