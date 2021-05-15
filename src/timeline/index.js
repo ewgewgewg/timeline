@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Select, MenuItem } from "@material-ui/core";
+import { Select, MenuItem, ListItem } from "@material-ui/core";
 import { fixDate } from "./util";
 import { leaderPeriods, flows } from "../assets";
 import "./timeline.css";
@@ -24,8 +24,8 @@ const Timeline = () => {
   };
 
   const fillLeaders = (selectedFlow) => {
-    const selectedLeaders = leaderPeriods
-      .filter((l) => l.polity === selectedFlow)
+    const selectedPeriods = leaderPeriods
+      .filter((sp) => sp.flows[selectedFlow])
       .sort((a, b) => {
         if (a.start === b.start) {
           if (a.end === b.end) {
@@ -40,13 +40,47 @@ const Timeline = () => {
         return a.start - b.start;
       });
 
-    return selectedLeaders.map((l) => (
-      <div>
-        <a href={l.link} target="_blank" rel="noreferrer">
-          {l.name} : {fixDate(l.start)} - {fixDate(l.end)}
-        </a>
-      </div>
-    ));
+    const processPeriods = [];
+    for (let i = 0; i < selectedPeriods.length; i++) {
+      if (i !== 0) {
+        let onlyInPrev = [];
+        let onlyInCurr = [];
+        const lastPeriod = processPeriods[processPeriods.length - 1].flows;
+        const currPeriod = selectedPeriods[i].flows;
+        for (let lastFlow in lastPeriod) {
+          if (!currPeriod[lastFlow]) {
+            onlyInPrev.push(lastFlow);
+          }
+        }
+        for (let currFlow in currPeriod) {
+          if (!lastPeriod[currFlow]) {
+            onlyInCurr.push(currFlow);
+          }
+        }
+        onlyInPrev.sort();
+        onlyInCurr.sort();
+        for (let label of onlyInPrev) {
+          processPeriods.push("End " + label);
+        }
+        for (let label of onlyInCurr) {
+          processPeriods.push("Start " + label);
+        }
+      }
+      processPeriods.push(selectedPeriods[i]);
+    }
+
+    return processPeriods.map((l) => {
+      if (typeof l === "string") {
+        return <div>{l}</div>;
+      }
+      return (
+        <div>
+          <a href={l.link} target="_blank" rel="noreferrer">
+            {l.name} : {fixDate(l.start)} - {fixDate(l.end)}
+          </a>
+        </div>
+      );
+    });
   };
 
   return (
