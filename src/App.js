@@ -1,16 +1,23 @@
 import { useState } from "react";
 import { Select, MenuItem, TextField } from "@material-ui/core";
 import "./App.css";
+import PeriodSearch from "./periodsearch";
 import YearEvents from "./yearevents";
 import Timeline from "./timeline";
 
 function App() {
   const [columns, setColumns] = useState(2);
-  const [year, setYear] = useState(0);
+  const [basicSearchTerm, setBasicSearchTerm] = useState(0);
   const selectColumns = (event) => setColumns(event.target.value);
 
-  const yearSearch = (event) => {
-    setYear(event.target.value);
+  const basicSearch = (event) => {
+    setBasicSearchTerm(event.target.value);
+  };
+
+  const makeDisplay = (basicSearchTerm) => {
+    if (!basicSearchTerm) return makeColumns();
+    if (isNaN(basicSearchTerm)) return PeriodSearch(basicSearchTerm);
+    else return YearEvents(basicSearchTerm);
   };
 
   const makeColumns = () => {
@@ -31,11 +38,11 @@ function App() {
           </Select>
         </div>
         <div className="utilities">
-          <div className="year">Utility: Year</div>
-          <TextField onChange={yearSearch} />
+          <div className="year">Utility: Year or Leader</div>
+          <TextField onChange={basicSearch} />
         </div>
       </div>
-      <div className="body">{year ? YearEvents(year) : makeColumns()}</div>
+      <div className="body">{makeDisplay(basicSearchTerm)}</div>
     </div>
   );
 }
