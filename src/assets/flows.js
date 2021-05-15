@@ -35,6 +35,9 @@ const flows = {
   Mughal: {
     name: "Mughal",
   },
+  Mongol: {
+    name: "Mongol",
+  },
   China: {
     name: "China",
   },
