@@ -20,6 +20,15 @@ const flows = {
   "Soviet Union": {
     name: "Soviet Union",
   },
+  "Early Ecumenical Caliphates": {
+    name: "Early Ecumenical Caliphates",
+  },
+  Rashidun: {
+    name: "Rashidun",
+  },
+  Umayyad: {
+    name: "Umayyad",
+  },
   Ottoman: {
     name: "Ottoman",
   },
