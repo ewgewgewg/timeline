@@ -1262,6 +1262,77 @@ const leaderPeriods = [
     end: 907,
     link: "https://en.wikipedia.org/wiki/Emperor_Ai_of_Tang_China",
   },
+  //Qing China
+  {
+    name: "Shunzhi Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1643,
+    end: 1661,
+    link: "https://en.wikipedia.org/wiki/Shunzhi_Emperor",
+  },
+  {
+    name: "Kangxi Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1661,
+    end: 1722,
+    link: "https://en.wikipedia.org/wiki/Kangxi_Emperor",
+  },
+  {
+    name: "Yongzheng Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1722,
+    end: 1735,
+    link: "https://en.wikipedia.org/wiki/Yongzheng_Emperor",
+  },
+  {
+    name: "Qianlong Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1735,
+    end: 1796,
+    link: "https://en.wikipedia.org/wiki/Qianlong_Emperor",
+  },
+  {
+    name: "Jiaqing Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1796,
+    end: 1820,
+    link: "https://en.wikipedia.org/wiki/Jiaqing_Emperor",
+  },
+  {
+    name: "Daoguang Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1820,
+    end: 1850,
+    link: "https://en.wikipedia.org/wiki/Daoguang_Emperor",
+  },
+  {
+    name: "Xianfeng Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1850,
+    end: 1861,
+    link: "https://en.wikipedia.org/wiki/Xianfeng_Emperor",
+  },
+  {
+    name: "Tongzhi Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1861,
+    end: 1875,
+    link: "https://en.wikipedia.org/wiki/Tongzhi_Emperor",
+  },
+  {
+    name: "Guangxu Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1875,
+    end: 1908,
+    link: "https://en.wikipedia.org/wiki/Guangxu_Emperor",
+  },
+  {
+    name: "Xuantong Emperor",
+    flows: { China: true, "Qing Dynasty": true },
+    start: 1908,
+    end: 1912,
+    link: "https://en.wikipedia.org/wiki/Xuantong_Emperor",
+  },
 ];
 
 export default leaderPeriods;
