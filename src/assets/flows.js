@@ -11,11 +11,14 @@ const flows = {
   "Soviet Union": {
     name: "Soviet Union",
   },
-  India: {
-    name: "India",
+  Magadha: {
+    name: "Magadha",
   },
   Maurya: {
     name: "Maurya",
+  },
+  Gupta: {
+    name: "Gupta",
   },
   China: {
     name: "China",
