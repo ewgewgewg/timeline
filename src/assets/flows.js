@@ -20,6 +20,9 @@ const flows = {
   Gupta: {
     name: "Gupta",
   },
+  Mughal: {
+    name: "Mughal",
+  },
   China: {
     name: "China",
   },
