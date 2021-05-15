@@ -8,6 +8,9 @@ const flows = {
   Sweden: {
     name: "Sweden",
   },
+  Poland: {
+    name: "Poland",
+  },
   Russia: {
     name: "Russia",
   },

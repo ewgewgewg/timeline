@@ -334,6 +334,56 @@ const leaderPeriods = [
     end: 1718,
     link: "https://en.wikipedia.org/wiki/Charles_XII_of_Sweden",
   },
+  //Poland
+  {
+    name: "Jogaila",
+    flows: { Poland: true },
+    start: 1386,
+    end: 1434,
+    link: "https://en.wikipedia.org/wiki/Jogaila",
+  },
+  {
+    name: "Władysław III",
+    flows: { Poland: true },
+    start: 1434,
+    end: 1444,
+    link: "https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_III_of_Poland",
+  },
+  {
+    name: "Casimir IV",
+    flows: { Poland: true },
+    start: 1447,
+    end: 1492,
+    link: "https://en.wikipedia.org/wiki/Casimir_IV_Jagiellon",
+  },
+  {
+    name: "John I Albert",
+    flows: { Poland: true },
+    start: 1492,
+    end: 1501,
+    link: "https://en.wikipedia.org/wiki/John_I_Albert",
+  },
+  {
+    name: "Alexander",
+    flows: { Poland: true },
+    start: 1501,
+    end: 1506,
+    link: "https://en.wikipedia.org/wiki/Alexander_Jagiellon",
+  },
+  {
+    name: "Sigismund the Old",
+    flows: { Poland: true },
+    start: 1506,
+    end: 1548,
+    link: "https://en.wikipedia.org/wiki/Sigismund_the_Old",
+  },
+  {
+    name: "Sigismund II Augustus",
+    flows: { Poland: true },
+    start: 1548,
+    end: 1572,
+    link: "https://en.wikipedia.org/wiki/Sigismund_II_Augustus",
+  },
   //Russia
   {
     name: "Ivan III the Great",
