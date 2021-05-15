@@ -298,6 +298,42 @@ const leaderPeriods = [
     end: 251,
     link: "https://en.wikipedia.org/wiki/Decius",
   },
+  //Sweeden
+  {
+    name: "Gustavus Adolphus the Great",
+    flows: { Sweeden: true },
+    start: 1611,
+    end: 1632,
+    link: "https://en.wikipedia.org/wiki/Gustavus_Adolphus_of_Sweden",
+  },
+  {
+    name: "Christina",
+    flows: { Sweeden: true },
+    start: 1632,
+    end: 1654,
+    link: "https://en.wikipedia.org/wiki/Christina_of_Sweden",
+  },
+  {
+    name: "Charles X Gustav",
+    flows: { Sweeden: true },
+    start: 1654,
+    end: 1660,
+    link: "https://en.wikipedia.org/wiki/Charles_X_Gustav_of_Sweden",
+  },
+  {
+    name: "Charles XI",
+    flows: { Sweeden: true },
+    start: 1660,
+    end: 1697,
+    link: "https://en.wikipedia.org/wiki/Charles_XI_of_Sweden",
+  },
+  {
+    name: "Charles XII",
+    flows: { Sweeden: true },
+    start: 1697,
+    end: 1718,
+    link: "https://en.wikipedia.org/wiki/Charles_XII_of_Sweden",
+  },
   //Russia
   {
     name: "Ivan III the Great",
