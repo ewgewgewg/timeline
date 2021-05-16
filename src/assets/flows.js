@@ -68,6 +68,10 @@ const flows = {
     name: "Umayyad",
     dynasty: true,
   },
+  Abbasid: {
+    name: "Abbasid",
+    dynasty: true,
+  },
   Ottoman: {
     name: "Ottoman",
     dynasty: true,

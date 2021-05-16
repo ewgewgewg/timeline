@@ -1,0 +1,81 @@
+const PortugalPeriods = [
+  {
+    name: "John I",
+    flows: { Portugal: true, Aviz: true },
+    start: 1385,
+    end: 1433,
+    link: "https://en.wikipedia.org/wiki/John_I_of_Portugal",
+  },
+  {
+    name: "Edward",
+    flows: { Portugal: true, Aviz: true },
+    start: 1433,
+    end: 1438,
+    link: "https://en.wikipedia.org/wiki/Edward,_King_of_Portugal",
+  },
+  {
+    name: "Alphonso V",
+    flows: { Portugal: true, Aviz: true },
+    start: 1438,
+    end: 1477,
+    link: "https://en.wikipedia.org/wiki/Alphonso_V_of_Portugal",
+  },
+  {
+    name: "John II",
+    flows: { Portugal: true, Aviz: true },
+    start: 1477,
+    end: 1477,
+    link: "https://en.wikipedia.org/wiki/John_II_of_Portugal",
+  },
+  {
+    name: "Alphonso V",
+    flows: { Portugal: true, Aviz: true },
+    start: 1477,
+    end: 1481,
+    link: "https://en.wikipedia.org/wiki/Alphonso_V_of_Portugal",
+  },
+  {
+    name: "John II",
+    flows: { Portugal: true, Aviz: true },
+    start: 1481,
+    end: 1495,
+    link: "https://en.wikipedia.org/wiki/John_II_of_Portugal",
+  },
+  {
+    name: "Emmanuel I",
+    flows: { Portugal: true, Aviz: true },
+    start: 1495,
+    end: 1521,
+    link: "https://en.wikipedia.org/wiki/Emmanuel_I_of_Portugal",
+  },
+  {
+    name: "John III",
+    flows: { Portugal: true, Aviz: true },
+    start: 1521,
+    end: 1557,
+    link: "https://en.wikipedia.org/wiki/John_III_of_Portugal",
+  },
+  {
+    name: "Sebastian",
+    flows: { Portugal: true, Aviz: true },
+    start: 1557,
+    end: 1578,
+    link: "https://en.wikipedia.org/wiki/Sebastian_of_Portugal",
+  },
+  {
+    name: "Henry I",
+    flows: { Portugal: true, Aviz: true },
+    start: 1578,
+    end: 1580,
+    link: "https://en.wikipedia.org/wiki/Henry,_King_of_Portugal",
+  },
+  {
+    name: "Anthony",
+    flows: { Portugal: true, Aviz: true },
+    start: 1580,
+    end: 1583,
+    link: "https://en.wikipedia.org/wiki/Anthony_of_Portugal",
+  },
+];
+
+export default PortugalPeriods;
