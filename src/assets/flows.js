@@ -2,12 +2,18 @@ const flows = {
   "United States": {
     name: "United States",
   },
+  British: {
+    name: "British",
+  },
   France: {
     name: "France",
   },
   Bourbon: {
     name: "Bourbon",
     dynasty: true,
+  },
+  Germany: {
+    name: "German",
   },
   Rome: {
     name: "Rome",

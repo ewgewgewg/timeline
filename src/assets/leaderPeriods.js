@@ -3,108 +3,30 @@
 //end is end of reign
 import UnitedStatesPeriods from "./UnitedStates";
 import BritishIslesPeriods from "./BritishIsles";
+import FrancePeriods from "./France";
 
 let leaderPeriods = [
-  //France
+  //Germany
   {
-    name: "Henry IV",
-    flows: { France: true, Bourbon: true },
-    start: 1589,
-    end: 1610,
-    link: "https://en.wikipedia.org/wiki/Henry_IV_of_France",
+    name: "Wilhem I",
+    flows: { Germany: true },
+    start: 1871,
+    end: 1888,
+    link: "https://en.wikipedia.org/wiki/William_I,_German_Emperor",
   },
   {
-    name: "Louis XIII",
-    flows: { France: true, Bourbon: true },
-    start: 1610,
-    end: 1643,
-    link: "https://en.wikipedia.org/wiki/Louis_XIII_of_France",
+    name: "Friedrich III",
+    flows: { Germany: true },
+    start: 1888,
+    end: 1888,
+    link: "https://en.wikipedia.org/wiki/Frederick_III,_German_Emperor",
   },
   {
-    name: "Louis XIV",
-    flows: { France: true, Bourbon: true },
-    start: 1643,
-    end: 1715,
-    link: "https://en.wikipedia.org/wiki/Louis_XIV_of_France",
-  },
-  {
-    name: "Louis XV",
-    flows: { France: true, Bourbon: true },
-    start: 1715,
-    end: 1774,
-    link: "https://en.wikipedia.org/wiki/Louis_XV_of_France",
-  },
-  {
-    name: "Louis XVI",
-    flows: { France: true, Bourbon: true },
-    start: 1774,
-    end: 1792,
-    link: "https://en.wikipedia.org/wiki/Louis_XVI_of_France",
-  },
-  {
-    name: "French First Republic",
-    flows: { France: true },
-    start: 1792,
-    end: 1804,
-    multiple: true,
-    link: "https://en.wikipedia.org/wiki/French_First_Republic",
-  },
-  {
-    name: "Napoleon I",
-    flows: { France: true },
-    start: 1804,
-    end: 1814,
-    link: "https://en.wikipedia.org/wiki/Napoleon_I_of_France",
-  },
-  {
-    name: "Louis XVIII",
-    flows: { France: true, Bourbon: true },
-    start: 1814,
-    end: 1815,
-    link: "https://en.wikipedia.org/wiki/Louis_XVIII_of_France",
-  },
-  {
-    name: "Napoleon I",
-    flows: { France: true },
-    start: 1815,
-    end: 1815,
-    link: "https://en.wikipedia.org/wiki/Napoleon_I_of_France",
-  },
-  {
-    name: "Louis XVIII",
-    flows: { France: true, Bourbon: true },
-    start: 1815,
-    end: 1824,
-    link: "https://en.wikipedia.org/wiki/Louis_XVIII_of_France",
-  },
-  {
-    name: "Charles X",
-    flows: { France: true, Bourbon: true },
-    start: 1824,
-    end: 1830,
-    link: "https://en.wikipedia.org/wiki/Charles_X_of_France",
-  },
-  {
-    name: "Louis-Philippe I",
-    flows: { France: true },
-    start: 1830,
-    end: 1848,
-    link: "https://en.wikipedia.org/wiki/Louis-Philippe_I,_King_of_the_French",
-  },
-  {
-    name: "French Second Republic",
-    flows: { France: true },
-    start: 1848,
-    end: 1852,
-    multiple: true,
-    link: "https://en.wikipedia.org/wiki/French_Second_Republic",
-  },
-  {
-    name: "Napoleon III",
-    flows: { France: true },
-    start: 1852,
-    end: 1870,
-    link: "https://en.wikipedia.org/wiki/Napoleon_III_of_France",
+    name: "Wilhem II",
+    flows: { Germany: true },
+    start: 1888,
+    end: 1918,
+    link: "https://en.wikipedia.org/wiki/Wilhelm_II,_German_Emperor",
   },
   //Rome
   {
@@ -2676,6 +2598,7 @@ let leaderPeriods = [
 leaderPeriods = [
   ...UnitedStatesPeriods,
   ...BritishIslesPeriods,
+  ...FrancePeriods,
   ...leaderPeriods,
 ];
 
