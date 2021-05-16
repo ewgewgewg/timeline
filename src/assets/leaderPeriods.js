@@ -6,6 +6,112 @@ import BritishIslesPeriods from "./BritishIsles";
 import FrancePeriods from "./France";
 
 let leaderPeriods = [
+  //Spain
+  {
+    name: "Charles I (Emperor Charles V)",
+    flows: { Spain: true, Habsburg: true },
+    start: 1516,
+    end: 1556,
+    link: "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Philip II",
+    flows: { Spain: true, Habsburg: true },
+    start: 1556,
+    end: 1598,
+    link: "https://en.wikipedia.org/wiki/Philip_II_of_Spain",
+  },
+  {
+    name: "Philip III",
+    flows: { Spain: true, Habsburg: true },
+    start: 1598,
+    end: 1621,
+    link: "https://en.wikipedia.org/wiki/Philip_III_of_Spain",
+  },
+  {
+    name: "Philip IV",
+    flows: { Spain: true, Habsburg: true },
+    start: 1621,
+    end: 1665,
+    link: "https://en.wikipedia.org/wiki/Philip_IV_of_Spain",
+  },
+  {
+    name: "Charles II",
+    flows: { Spain: true, Habsburg: true },
+    start: 1665,
+    end: 1700,
+    link: "https://en.wikipedia.org/wiki/Charles_II_of_Spain",
+  },
+  {
+    name: "Philip V",
+    flows: { Spain: true, Bourbon: true },
+    start: 1700,
+    end: 1724,
+    link: "https://en.wikipedia.org/wiki/Philip_V_of_Spain",
+  },
+  {
+    name: "Louis I",
+    flows: { Spain: true, Bourbon: true },
+    start: 1724,
+    end: 1724,
+    link: "https://en.wikipedia.org/wiki/Louis_I_of_Spain",
+  },
+  {
+    name: "Philip V",
+    flows: { Spain: true, Bourbon: true },
+    start: 1724,
+    end: 1746,
+    link: "https://en.wikipedia.org/wiki/Philip_V_of_Spain",
+  },
+  {
+    name: "Ferdinand VI",
+    flows: { Spain: true, Bourbon: true },
+    start: 1746,
+    end: 1759,
+    link: "https://en.wikipedia.org/wiki/Ferdinand_VI",
+  },
+  {
+    name: "Charles III",
+    flows: { Spain: true, Bourbon: true },
+    start: 1759,
+    end: 1788,
+    link: "https://en.wikipedia.org/wiki/Charles_III_of_Spain",
+  },
+  {
+    name: "Charles IV",
+    flows: { Spain: true, Bourbon: true },
+    start: 1788,
+    end: 1808,
+    link: "https://en.wikipedia.org/wiki/Charles_IV_of_Spain",
+  },
+  {
+    name: "Ferdinand VII",
+    flows: { Spain: true, Bourbon: true },
+    start: 1808,
+    end: 1808,
+    link: "https://en.wikipedia.org/wiki/Ferdinand_VII_of_Spain",
+  },
+  {
+    name: "Joseph I",
+    flows: { Spain: true, Bonaparte: true },
+    start: 1808,
+    end: 1813,
+    link: "https://en.wikipedia.org/wiki/Joseph_Bonaparte",
+  },
+  {
+    name: "Ferdinand VII",
+    flows: { Spain: true, Bourbon: true },
+    start: 1813,
+    end: 1833,
+    link: "https://en.wikipedia.org/wiki/Ferdinand_VII_of_Spain",
+  },
+  {
+    name: "Isabella II",
+    flows: { Spain: true, Bourbon: true },
+    start: 1833,
+    end: 1868,
+    link: "https://en.wikipedia.org/wiki/Isabella_II_of_Spain",
+  },
   //Germany
   {
     name: "Wilhem I",

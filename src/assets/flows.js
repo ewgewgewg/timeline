@@ -5,11 +5,21 @@ const flows = {
   British: {
     name: "British",
   },
+  Spain: {
+    name: "Spain",
+  },
+  Habsburg: {
+    name: "Habsburg",
+  },
   France: {
     name: "France",
   },
   Bourbon: {
     name: "Bourbon",
+    dynasty: true,
+  },
+  Bonaparte: {
+    name: "Bonaparte",
     dynasty: true,
   },
   Germany: {
