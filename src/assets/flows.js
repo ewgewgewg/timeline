@@ -14,6 +14,13 @@ const flows = {
   France: {
     name: "France",
   },
+  Portugal: {
+    name: "Portugal",
+  },
+  Aviz: {
+    name: "Aviz",
+    dynasty: true,
+  },
   Bourbon: {
     name: "Bourbon",
     dynasty: true,
