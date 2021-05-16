@@ -2,6 +2,10 @@ const flows = {
   France: {
     name: "France",
   },
+  Bourbon: {
+    name: "Bourbon",
+    dynasty: true,
+  },
   Rome: {
     name: "Rome",
   },
@@ -10,12 +14,14 @@ const flows = {
   },
   "Habsburg-Lorraine": {
     name: "Habsburg-Lorraine",
+    dynasty: true,
   },
   Poland: {
     name: "Poland",
   },
-  "Jagiellonian Dynasty": {
-    name: "Jagiellonian Dynasty",
+  Jagiellonian: {
+    name: "Jagiellonian",
+    dynasty: true,
   },
   Russia: {
     name: "Russia",
@@ -31,6 +37,7 @@ const flows = {
   },
   Umayyad: {
     name: "Umayyad",
+    dynasty: true,
   },
   Ottoman: {
     name: "Ottoman",
@@ -55,12 +62,15 @@ const flows = {
   },
   "Han Dynasty": {
     name: "Han Dynasty",
+    dynasty: true,
   },
   "Tang Dynasty": {
     name: "Tang Dynasty",
+    dynasty: true,
   },
   "Qing Dynasty": {
     name: "Qing Dynasty",
+    dynasty: true,
   },
 };
 
