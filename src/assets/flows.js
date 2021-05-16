@@ -1,4 +1,7 @@
 const flows = {
+  "United States": {
+    name: "United States",
+  },
   France: {
     name: "France",
   },
