@@ -111,7 +111,43 @@ const ChinaPeriods = [
     end: 220,
     link: "https://en.wikipedia.org/wiki/Emperor_Xian_of_Han",
   },
-  //China 618-
+  //Sui
+  {
+    name: "Emperor Wen",
+    flows: { China: true, "Sui Dynasty": true },
+    start: 581,
+    end: 604,
+    link: "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui_China",
+  },
+  {
+    name: "Emperor Yang",
+    flows: { China: true, "Sui Dynasty": true },
+    start: 605,
+    end: 617,
+    link: "https://en.wikipedia.org/wiki/Emperor_Yang_of_Sui_China",
+  },
+  {
+    name: "Yang You",
+    flows: { China: true, "Sui Dynasty": true },
+    start: 617,
+    end: 618,
+    link: "https://en.wikipedia.org/wiki/Yang_You",
+  },
+  {
+    name: "Yang Hao",
+    flows: { China: true, "Sui Dynasty": true },
+    start: 618,
+    end: 618,
+    link: "https://en.wikipedia.org/wiki/Yang_Hao_(Sui_dynasty)",
+  },
+  {
+    name: "Yang Tong",
+    flows: { China: true, "Sui Dynasty": true },
+    start: 618,
+    end: 619,
+    link: "https://en.wikipedia.org/wiki/Yang_Tong",
+  },
+  //Tang
   {
     name: "Emperor Gaozu",
     flows: { China: true, "Tang Dynasty": true },
