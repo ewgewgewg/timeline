@@ -112,6 +112,10 @@ const flows = {
     name: "Tang Dynasty",
     dynasty: true,
   },
+  "Yuan Dynasty": {
+    name: "Yuan Dynasty",
+    dynasty: true,
+  },
   "Ming Dynasty": {
     name: "Ming Dynasty",
     dynasty: true,
