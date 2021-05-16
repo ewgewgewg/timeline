@@ -1,4 +1,27 @@
 const ChinaPeriods = [
+  //Qin
+  {
+    name: "Qin Shi Huang",
+    flows: { China: true, "Qin Dynasty": true },
+    start: -220,
+    end: -209,
+    link: "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+  },
+  {
+    name: "Qin Er Shi",
+    flows: { China: true, "Qin Dynasty": true },
+    start: -208,
+    end: -206,
+    link: "https://en.wikipedia.org/wiki/Qin_Er_Shi",
+  },
+  {
+    name: "Ziyang",
+    flows: { China: true, "Qin Dynasty": true },
+    start: -206,
+    end: -206,
+    link: "https://en.wikipedia.org/wiki/Ziying",
+  },
+  //Han Era
   {
     name: "Wang Mang",
     flows: { China: true },

@@ -104,6 +104,10 @@ const flows = {
   China: {
     name: "China",
   },
+  "Qin Dynasty": {
+    name: "Qin Dynasty",
+    dynasty: true,
+  },
   "Han Dynasty": {
     name: "Han Dynasty",
     dynasty: true,
