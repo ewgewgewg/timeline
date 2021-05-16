@@ -684,6 +684,49 @@ const leaderPeriods = [
     end: 1572,
     link: "https://en.wikipedia.org/wiki/Sigismund_II_Augustus",
   },
+  //Habsburg-Lorraine
+  {
+    name: "Joseph II",
+    flows: { "Habsburg-Lorraine": true },
+    start: 1765,
+    end: 1790,
+    link: "https://en.wikipedia.org/wiki/Joseph_II,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Leopold II",
+    flows: { "Habsburg-Lorraine": true },
+    start: 1790,
+    end: 1792,
+    link: "https://en.wikipedia.org/wiki/Leopold_II,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Francis",
+    flows: { "Habsburg-Lorraine": true },
+    start: 1792,
+    end: 1835,
+    link: "https://en.wikipedia.org/wiki/Francis_II,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Ferdinand I and V",
+    flows: { "Habsburg-Lorraine": true },
+    start: 1835,
+    end: 1848,
+    link: "https://en.wikipedia.org/wiki/Ferdinand_I_of_Austria",
+  },
+  {
+    name: "Francis Joseph I",
+    flows: { "Habsburg-Lorraine": true },
+    start: 1848,
+    end: 1916,
+    link: "https://en.wikipedia.org/wiki/Francis_Joseph_I_of_Austria",
+  },
+  {
+    name: "Charles I and IV",
+    flows: { "Habsburg-Lorraine": true },
+    start: 1916,
+    end: 1918,
+    link: "https://en.wikipedia.org/wiki/Charles_I_of_Austria",
+  },
   //Russia
   {
     name: "Ivan III the Great",
