@@ -1943,7 +1943,7 @@ let leaderPeriods = [
     name: "Adhur Narseh",
     flows: { Persia: true, Sasanian: true },
     start: 309,
-    end: 293,
+    end: 309,
     link: "https://en.wikipedia.org/wiki/Adhur_Narseh",
   },
   {
