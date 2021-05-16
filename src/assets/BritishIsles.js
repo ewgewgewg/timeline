@@ -120,7 +120,7 @@ const BritishIslesPeriods = [
     link: "https://en.wikipedia.org/wiki/William_Cavendish-Bentinck,_3rd_Duke_of_Portland",
   },
   {
-    name: "William Pitt the Yonger",
+    name: "William Pitt the Younger",
     flows: { British: true },
     party: ["Tory"],
     start: 1783,

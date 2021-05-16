@@ -44,6 +44,17 @@ const flows = {
   },
   Ottoman: {
     name: "Ottoman",
+    dynasty: true,
+  },
+  Persia: {
+    name: "Persia",
+  },
+  Achaemenid: {
+    name: "Achaemenid",
+    dynasty: true,
+  },
+  Sasanian: {
+    name: "Sasanian",
   },
   Magadha: {
     name: "Magadha",
