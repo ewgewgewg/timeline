@@ -1,4 +1,4 @@
-//from Wikipedia May 13-15, 2021 unless otherwise stated
+//from Wikipedia May 13-16, 2021 unless otherwise stated
 //start is start of reign
 //end is end of reign
 import UnitedStatesPeriods from "./UnitedStates";
@@ -1429,6 +1429,138 @@ let leaderPeriods = [
     end: 1258,
     link: "https://en.wikipedia.org/wiki/Al-Musta%27sim",
   },
+  //Akkad
+  {
+    name: "Sargon",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2333,
+    end: -2278,
+    link: "https://en.wikipedia.org/wiki/Sargon_of_Akkad",
+  },
+  {
+    name: "Rimush",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2278,
+    end: -2269,
+    link: "https://en.wikipedia.org/wiki/Rimush",
+  },
+  {
+    name: "Manishtushu",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2268,
+    end: -2254,
+    link: "https://en.wikipedia.org/wiki/Manishtushu",
+  },
+  {
+    name: "Naram-Sin",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2253,
+    end: -2217,
+    link: "https://en.wikipedia.org/wiki/Naram-Sin_of_Akkad",
+  },
+  {
+    name: "Shar-Kali-Sharri",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2216,
+    end: -2192,
+    link: "https://en.wikipedia.org/wiki/Shar-Kali-Sharri",
+  },
+  {
+    name: "Igigi",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2192,
+    end: -2191,
+    link: "https://en.wikipedia.org/wiki/Igigi_of_Akkad",
+  },
+  {
+    name: "Imi",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2191,
+    end: -2190,
+    link: "https://en.wikipedia.org/wiki/Imi",
+  },
+  {
+    name: "Nanum",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2190,
+    end: -2189,
+    link: "https://en.wikipedia.org/wiki/Nanum_of_Akkad",
+  },
+  {
+    name: "Ililu",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2189,
+    end: -2188,
+    link: "https://en.wikipedia.org/wiki/Ilulu",
+  },
+  {
+    name: "Dudu",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2188,
+    end: -2168,
+    link: "https://en.wikipedia.org/wiki/Dudu_of_Akkad",
+  },
+  {
+    name: "Shu-turul",
+    flows: { Akkad: true, "King of Sumer and Akkad": true },
+    chronology: "middle",
+    start: -2167,
+    end: -2153,
+    link: "https://en.wikipedia.org/wiki/Shu-turul",
+  },
+  //Neo-Babylonian
+  {
+    name: "Nabopolassar",
+    flows: { "Neo-Babylonian": true, "King of Sumer and Akkad": true },
+    start: -625,
+    end: -604,
+    link: "https://en.wikipedia.org/wiki/Nabopolassar",
+  },
+  {
+    name: "Nebuchadnezzar II",
+    flows: { "Neo-Babylonian": true, "King of Sumer and Akkad": true },
+    start: -604,
+    end: -561,
+    link: "https://en.wikipedia.org/wiki/Nebuchadnezzar_II",
+  },
+  {
+    name: "Amel-Marduk",
+    flows: { "Neo-Babylonian": true, "King of Sumer and Akkad": true },
+    start: -561,
+    end: -559,
+    link: "https://en.wikipedia.org/wiki/Amel-Marduk",
+  },
+  {
+    name: "Neriglissar",
+    flows: { "Neo-Babylonian": true, "King of Sumer and Akkad": true },
+    start: -559,
+    end: -555,
+    link: "https://en.wikipedia.org/wiki/Neriglissar",
+  },
+  {
+    name: "Labashi-Marduk",
+    flows: { "Neo-Babylonian": true, "King of Sumer and Akkad": true },
+    start: -555,
+    end: -555,
+    link: "https://en.wikipedia.org/wiki/Labashi-Marduk",
+  },
+  {
+    name: "Nabonidus",
+    flows: { "Neo-Babylonian": true, "King of Sumer and Akkad": true },
+    start: -555,
+    end: -538,
+    link: "https://en.wikipedia.org/wiki/Nabonidus",
+  },
   //Ottoman
   {
     name: "Osman I",
@@ -1716,7 +1848,8 @@ let leaderPeriods = [
   //Achaemenid
   {
     name: "Cyrus the Great",
-    flows: { Persia: true, Achaemenid: true },
+    flows: { Persia: true, Achaemenid: true, "King of Sumer and Akkad": true },
+    note: "claims King of Sumer and Akkad from 539 BCE",
     start: -558,
     end: -529,
     link: "https://en.wikipedia.org/wiki/Cyrus_the_Great",

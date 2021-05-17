@@ -75,6 +75,15 @@ const flows = {
     name: "Abbasid",
     dynasty: true,
   },
+  Akkad: {
+    name: "Akkad",
+  },
+  "King of Sumer and Akkad": {
+    name: "King of Sumer and Akkad",
+  },
+  "Neo-Babylonian": {
+    name: "Neo-Babylonian",
+  },
   Ottoman: {
     name: "Ottoman",
     dynasty: true,
