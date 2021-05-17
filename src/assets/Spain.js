@@ -102,6 +102,7 @@ const SpainPeriods = [
     flows: { Spain: true, Bourbon: true },
     start: 1833,
     end: 1868,
+    gender: 'female',
     link: "https://en.wikipedia.org/wiki/Isabella_II_of_Spain",
   },
 ];

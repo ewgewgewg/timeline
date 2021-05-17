@@ -583,6 +583,7 @@ let leaderPeriods = [
     flows: { Sweden: true },
     start: 1632,
     end: 1654,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Christina_of_Sweden",
   },
   {
@@ -740,6 +741,7 @@ let leaderPeriods = [
     flows: { Russia: true },
     start: 1598,
     end: 1598,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Irina_Godunova",
   },
   {
@@ -824,6 +826,7 @@ let leaderPeriods = [
     flows: { Russia: true },
     start: 1725,
     end: 1727,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Catherine_I_of_Russia",
   },
   {
@@ -838,6 +841,7 @@ let leaderPeriods = [
     flows: { Russia: true },
     start: 1730,
     end: 1740,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Anna_of_Russia",
   },
   {
@@ -866,6 +870,7 @@ let leaderPeriods = [
     flows: { Russia: true },
     start: 1762,
     end: 1796,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Catherine_the_Great",
   },
   {
@@ -2178,6 +2183,7 @@ let leaderPeriods = [
     flows: { Persia: true, Sasanian: true },
     start: 629,
     end: 630,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Borandukht",
   },
   {
@@ -2185,6 +2191,7 @@ let leaderPeriods = [
     flows: { Persia: true, Sasanian: true },
     start: 631,
     end: 632,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Borandukht",
   },
   {
@@ -2209,6 +2216,7 @@ let leaderPeriods = [
     start: 630,
     end: 631,
     order: 4,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Azarmidokht",
   },
   {
@@ -2606,6 +2614,7 @@ let leaderPeriods = [
     flows: { Mongol: true },
     start: 1241,
     end: 1246,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/T%C3%B6regene_Khatun",
   },
   {
@@ -2621,6 +2630,7 @@ let leaderPeriods = [
     flows: { Mongol: true },
     start: 1248,
     end: 1251,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Oghul_Qaimish",
   },
   {

@@ -568,6 +568,7 @@ const BritishIslesPeriods = [
     party: ["Conservative"],
     start: 1979,
     end: 1990,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Margaret_Thatcher",
   },
   {
@@ -608,6 +609,7 @@ const BritishIslesPeriods = [
     party: ["Conservative"],
     start: 2016,
     end: 2019,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Theresa_May",
   },
   {

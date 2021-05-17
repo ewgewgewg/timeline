@@ -6,6 +6,19 @@ const PeriodSearch = (basicSearchTerm) => {
   let early = false;
   let long = false;
   let short = false;
+  let female = false;
+
+  if (basicSearchTerm.startsWith("woman*")) {
+    basicSearchTerm = basicSearchTerm.slice(6);
+    female = true;
+  } else if (basicSearchTerm.startsWith("female*")) {
+    basicSearchTerm = basicSearchTerm.slice(7);
+    female = true;
+  } else if (basicSearchTerm.startsWith("f*")) {
+    basicSearchTerm = basicSearchTerm.slice(2);
+    female = true;
+  }
+
   if (basicSearchTerm.startsWith("late*")) {
     basicSearchTerm = basicSearchTerm.slice(5);
     late = true;
@@ -20,9 +33,23 @@ const PeriodSearch = (basicSearchTerm) => {
     short = true;
   }
 
+  if (basicSearchTerm.startsWith("woman*")) {
+    basicSearchTerm = basicSearchTerm.slice(6);
+    female = true;
+  } else if (basicSearchTerm.startsWith("female*")) {
+    basicSearchTerm = basicSearchTerm.slice(7);
+    female = true;
+  } else if (basicSearchTerm.startsWith("f*")) {
+    basicSearchTerm = basicSearchTerm.slice(2);
+    female = true;
+  }
+
   let collect = [];
   for (let period of leaderPeriods) {
     if (period.name.toLowerCase().includes(basicSearchTerm.toLowerCase())) {
+      if (female && (!period.gender || period.gender !== "female")) {
+        continue;
+      }
       collect.push(period);
     }
   }

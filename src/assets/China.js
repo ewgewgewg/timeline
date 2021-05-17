@@ -319,6 +319,7 @@ const ChinaPeriods = [
     flows: { China: true },
     start: 690,
     end: 705,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Wu_Zetian",
   },
   {
