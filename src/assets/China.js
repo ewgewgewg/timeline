@@ -964,6 +964,49 @@ const ChinaPeriods = [
     end: 1912,
     link: "https://en.wikipedia.org/wiki/Xuantong_Emperor",
   },
+  //PRC basic five fields on May 17 2021 via https://en.wikipedia.org/wiki/Paramount_leader
+  {
+    name: "Mao Zedong",
+    flows: { China: true, "People's Republic of China": true },
+    start: 1949,
+    end: 1976,
+    link: "https://en.wikipedia.org/wiki/Mao_Zedong",
+  },
+  {
+    name: "Hua Guofeng",
+    flows: { China: true, "People's Republic of China": true },
+    start: 1976,
+    end: 1978,
+    link: "https://en.wikipedia.org/wiki/Hua_Guofeng",
+  },
+  {
+    name: "Deng Xiaoping",
+    flows: { China: true, "People's Republic of China": true },
+    start: 1978,
+    end: 1989,
+    link: "https://en.wikipedia.org/wiki/Deng_Xiaoping",
+  },
+  {
+    name: "Jiang Zemin",
+    flows: { China: true, "People's Republic of China": true },
+    start: 1989,
+    end: 2004,
+    link: "https://en.wikipedia.org/wiki/Jiang_Zemin",
+  },
+  {
+    name: "Hu Jintao",
+    flows: { China: true, "People's Republic of China": true },
+    start: 2004,
+    end: 2012,
+    link: "https://en.wikipedia.org/wiki/Hu_Jintao",
+  },
+  {
+    name: "Xi Jinping",
+    flows: { China: true, "People's Republic of China": true },
+    start: 2012,
+    end: "At Least 2021",
+    link: "https://en.wikipedia.org/wiki/Xi_Jinping",
+  },
 ];
 
 export default ChinaPeriods;
