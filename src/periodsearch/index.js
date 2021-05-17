@@ -53,12 +53,12 @@ const PeriodSearch = (basicSearchTerm) => {
         if (a.end === b.end) {
           try {
             if (a.order === b.order) {
-              return a.name - b.name;
+              return a.start - b.start;
             }
             return a.order - b.order;
           } catch {
             if (a.end === b.end) {
-              return a.name - b.name;
+              return a.start - b.start;
             }
             return a.end - b.end;
           }
@@ -75,6 +75,9 @@ const PeriodSearch = (basicSearchTerm) => {
       if (typeof newEndB === "string") newEndB = Number(newEndB.slice(-4));
       let lengthA = newEndA - a.start;
       let lengthB = newEndB - b.start;
+      if (lengthA === lengthB) {
+        return a.start - b.start;
+      }
       return lengthB - lengthA;
     });
   } else if (short) {
@@ -85,17 +88,31 @@ const PeriodSearch = (basicSearchTerm) => {
       if (typeof newEndB === "string") newEndB = Number(newEndB.slice(-4));
       let lengthA = newEndA - a.start;
       let lengthB = newEndB - b.start;
+      if (lengthA === lengthB) {
+        return a.start - b.start;
+      }
       return lengthA - lengthB;
     });
   }
 
+  const getYears = (period) => {
+    if (!short && !long) return "";
+    const range =
+      (typeof period.end === "string"
+        ? Number(period.end.slice(-4))
+        : period.end) - period.start;
+    return ` | Apx. Years in Power: ${range}`;
+  };
+
   const form = collect.map((period) => {
     const flows = Object.keys(period.flows).sort().join(", ");
+
     return (
       <div>
         <a href={period.link} target="_blank" rel="noreferrer">
           {period.name} : {fixDate(period.start)} - {fixDate(period.end)} from{" "}
           {flows}
+          {getYears(period)}
         </a>
       </div>
     );
