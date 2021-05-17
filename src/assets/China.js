@@ -964,6 +964,58 @@ const ChinaPeriods = [
     end: 1912,
     link: "https://en.wikipedia.org/wiki/Xuantong_Emperor",
   },
+  //Qing - PRC transition
+  {
+    name: "Sun Yat-sen",
+    flows: { China: true },
+    start: 1912,
+    end: 1912,
+    link: "https://en.wikipedia.org/wiki/Sun_Yat-sen",
+  },
+  {
+    name: "Yuan Shikai",
+    flows: { China: true },
+    start: 1912,
+    end: 1916,
+    note: "President except 12 Dec 1915 - 22 March 1916 when Emperor",
+    link: "https://en.wikipedia.org/wiki/Yuan_Shikai",
+  },
+  {
+    name: "Li Yuanhong",
+    flows: { China: true },
+    start: 1916,
+    end: 1917,
+    link: "https://en.wikipedia.org/wiki/Li_Yuanhong",
+  },
+  {
+    name: "Feng Guozhang",
+    flows: { China: true },
+    start: 1917,
+    end: 1918,
+    note: "Zhili Clique founder",
+    link: "https://en.wikipedia.org/wiki/Feng_Guozhang",
+  },
+  {
+    name: "Xu Shichang",
+    flows: { China: true },
+    start: 1918,
+    end: 1922,
+    link: "https://en.wikipedia.org/wiki/Xu_Shichang",
+  },
+  {
+    name: "Zhou Ziqi",
+    flows: { China: true },
+    start: 1922,
+    end: 1922,
+    link: "https://en.wikipedia.org/wiki/Zhou_Ziqi",
+  },
+  {
+    name: "Li Yuanhong",
+    flows: { China: true },
+    start: 1922,
+    end: 1923,
+    link: "https://en.wikipedia.org/wiki/Li_Yuanhong",
+  },
   //PRC basic five fields on May 17 2021 via https://en.wikipedia.org/wiki/Paramount_leader
   {
     name: "Mao Zedong",
