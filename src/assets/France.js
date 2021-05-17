@@ -44,7 +44,7 @@ const FrancePeriods = [
   },
   {
     name: "Napoleon I",
-    flows: { France: true },
+    flows: { France: true, Bonaparte: true },
     start: 1804,
     end: 1814,
     link: "https://en.wikipedia.org/wiki/Napoleon_I_of_France",

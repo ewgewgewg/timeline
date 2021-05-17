@@ -1,4 +1,4 @@
-//from Wikipedia May 13-16, 2021 unless otherwise stated
+//from Wikipedia May 13-ongoing, 2021 unless otherwise stated
 //start is start of reign
 //end is end of reign
 import UnitedStatesPeriods from "./UnitedStates";

@@ -448,6 +448,111 @@ const ChinaPeriods = [
     end: 907,
     link: "https://en.wikipedia.org/wiki/Emperor_Ai_of_Tang_China",
   },
+  //Five Dynasties
+  //Later Liang
+  {
+    name: "Zhu Wen",
+    flows: { China: true, "Later Liang Dynasty": true, "Five Dynasties": true },
+    start: 907,
+    end: 912,
+    link: "https://en.wikipedia.org/wiki/Zhu_Wen",
+  },
+  {
+    name: "Zhu Yougui",
+    flows: { China: true, "Later Liang Dynasty": true, "Five Dynasties": true },
+    start: 912,
+    end: 913,
+    link: "https://en.wikipedia.org/wiki/Zhu_Yougui",
+  },
+  {
+    name: "Zhu Zhen",
+    flows: { China: true, "Later Liang Dynasty": true, "Five Dynasties": true },
+    start: 913,
+    end: 923,
+    link: "https://en.wikipedia.org/wiki/Zhu_Zhen",
+  },
+  //Later Tang
+  {
+    name: "Li Cunxu",
+    flows: { China: true, "Later Tang Dynasty": true, "Five Dynasties": true },
+    start: 923,
+    end: 926,
+    link: "https://en.wikipedia.org/wiki/Li_Cunxu",
+  },
+  {
+    name: "Li Siyuan",
+    flows: { China: true, "Later Tang Dynasty": true, "Five Dynasties": true },
+    start: 926,
+    end: 933,
+    link: "https://en.wikipedia.org/wiki/Li_Siyuan",
+  },
+  {
+    name: "Li Conghou",
+    flows: { China: true, "Later Tang Dynasty": true, "Five Dynasties": true },
+    start: 933,
+    end: 934,
+    link: "https://en.wikipedia.org/wiki/Li_Conghou",
+  },
+  {
+    name: "Li Congke",
+    flows: { China: true, "Later Tang Dynasty": true, "Five Dynasties": true },
+    start: 934,
+    end: 937,
+    link: "https://en.wikipedia.org/wiki/Li_Congke",
+  },
+  //Later Jin
+  {
+    name: "Shi Jingtang",
+    flows: { China: true, "Later Jin Dynasty": true, "Five Dynasties": true },
+    start: 936,
+    end: 942,
+    link: "https://en.wikipedia.org/wiki/Shi_Jingtang",
+  },
+  {
+    name: "Shi Chonggui",
+    flows: { China: true, "Later Jin Dynasty": true, "Five Dynasties": true },
+    start: 942,
+    end: 947,
+    link: "https://en.wikipedia.org/wiki/Shi_Chonggui",
+  },
+  //Later Han
+  {
+    name: "Liu Zhiyuan",
+    flows: { China: true, "Later Han Dynasty": true, "Five Dynasties": true },
+    start: 947,
+    end: 948,
+    link: "https://en.wikipedia.org/wiki/Liu_Zhiyuan",
+  },
+  {
+    name: "Liu Chengyou",
+    flows: { China: true, "Later Han Dynasty": true, "Five Dynasties": true },
+    start: 948,
+    end: 951,
+    link: "https://en.wikipedia.org/wiki/Liu_Chengyou",
+  },
+  //Later Zhou
+  {
+    name: "Guo Wei",
+    flows: { China: true, "Later Zhou Dynasty": true, "Five Dynasties": true },
+    start: 951,
+    end: 954,
+    link: "https://en.wikipedia.org/wiki/Guo_Wei",
+  },
+  {
+    name: "Emperor Shizong",
+    flows: { China: true, "Later Zhou Dynasty": true, "Five Dynasties": true },
+    start: 954,
+    end: 959,
+    link: "https://en.wikipedia.org/wiki/Emperor_Shizong_of_Later_Zhou",
+  },
+  {
+    name: "Guo Zongxun",
+    flows: { China: true, "Later Zhou Dynasty": true, "Five Dynasties": true },
+    start: 959,
+    end: 960,
+    link: "https://en.wikipedia.org/wiki/Guo_Zongxun",
+  },
+  //End Five Dynasties
   //Song
   {
     name: "Emperor Taizu",
