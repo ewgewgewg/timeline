@@ -2,6 +2,7 @@
 //start is start of reign
 //end is end of reign
 import UnitedStatesPeriods from "./UnitedStates";
+import EgyptPeriods from "./Egypt";
 import BritishIslesPeriods from "./BritishIsles";
 import FrancePeriods from "./France";
 import SpainPeriods from "./Spain";
@@ -2507,6 +2508,7 @@ let leaderPeriods = [
 
 leaderPeriods = [
   ...UnitedStatesPeriods,
+  ...EgyptPeriods,
   ...BritishIslesPeriods,
   ...FrancePeriods,
   ...SpainPeriods,

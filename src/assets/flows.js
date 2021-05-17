@@ -2,6 +2,9 @@ const flows = {
   "United States": {
     name: "United States",
   },
+  Egypt: {
+    name: "Egypt",
+  },
   British: {
     name: "British",
   },
