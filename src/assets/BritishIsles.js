@@ -1,7 +1,7 @@
 const BritishIslesPeriods = [
   {
     name: "Robert Walpole",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1721,
     end: 1742,
@@ -9,7 +9,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Spencer Compton",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1742,
     end: 1743,
@@ -17,7 +17,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Henry Pelham",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1743,
     end: 1754,
@@ -25,7 +25,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Thomas Pelham-Holles",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1754,
     end: 1756,
@@ -33,7 +33,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Cavendish",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1756,
     end: 1757,
@@ -41,7 +41,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Thomas Pelham-Holles",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1757,
     end: 1762,
@@ -49,7 +49,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "John Stuart",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1762,
     end: 1763,
@@ -57,7 +57,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "George Grenville",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1763,
     end: 1765,
@@ -65,7 +65,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Charles Watson-Wentworth",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1765,
     end: 1766,
@@ -73,7 +73,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Pitt the Elder",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1766,
     end: 1768,
@@ -81,7 +81,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Augustus FitzRoy",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1768,
     end: 1770,
@@ -89,7 +89,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Frederick North",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1770,
     end: 1782,
@@ -97,7 +97,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Charles Watson-Wentworth",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1782,
     end: 1782,
@@ -105,7 +105,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Petty",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1782,
     end: 1783,
@@ -113,7 +113,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Cavendish-Bentinck",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1783,
     end: 1783,
@@ -121,7 +121,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Pitt the Younger",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1783,
     end: 1801,
@@ -129,7 +129,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Henry Addington",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1801,
     end: 1804,
@@ -137,7 +137,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Pitt the Younger",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1804,
     end: 1806,
@@ -145,7 +145,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Grenville",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1806,
     end: 1807,
@@ -153,7 +153,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Cavendish-Bentinck",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1807,
     end: 1809,
@@ -161,7 +161,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Spencer Perceval",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1809,
     end: 1812,
@@ -169,7 +169,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Robert Jenkinson",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1812,
     end: 1827,
@@ -177,7 +177,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "George Canning",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1827,
     end: 1827,
@@ -185,7 +185,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Frederick John Robinson",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1827,
     end: 1828,
@@ -193,7 +193,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Arthur Wellesley",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1828,
     end: 1830,
@@ -201,7 +201,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Charles Grey",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1830,
     end: 1834,
@@ -210,7 +210,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Lamb",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1834,
     end: 1834,
@@ -219,7 +219,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Arthur Wellesley",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Tory"],
     start: 1834,
     end: 1834,
@@ -228,7 +228,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Robert Peel",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1834,
     end: 1835,
@@ -236,7 +236,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Lamb",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1835,
     end: 1841,
@@ -244,7 +244,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Robert Peel",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1841,
     end: 1846,
@@ -252,7 +252,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "John Russell",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1846,
     end: 1852,
@@ -260,7 +260,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Edward Smith-Stanley",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1852,
     end: 1852,
@@ -268,7 +268,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "George Hamilton-Gordon",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Peelite"],
     start: 1852,
     end: 1855,
@@ -276,7 +276,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Henry John Temple",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Whig"],
     start: 1855,
     end: 1858,
@@ -284,7 +284,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Edward Smith-Stanley",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1858,
     end: 1859,
@@ -292,7 +292,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Henry John Temple",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1859,
     end: 1865,
@@ -300,7 +300,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "John Russell",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1865,
     end: 1866,
@@ -308,7 +308,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Edward Smith-Stanley",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1866,
     end: 1868,
@@ -316,7 +316,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Benjamin Disraeli",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1868,
     end: 1868,
@@ -324,7 +324,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Ewart Gladstone",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1868,
     end: 1874,
@@ -332,7 +332,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Benjamin Disraeli",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1874,
     end: 1880,
@@ -340,7 +340,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Ewart Gladstone",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1880,
     end: 1885,
@@ -348,7 +348,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Robert Gascoyne-Cecil",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1885,
     end: 1886,
@@ -356,7 +356,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Ewart Gladstone",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1886,
     end: 1886,
@@ -364,7 +364,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Robert Gascoyne-Cecil",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1886,
     end: 1892,
@@ -372,7 +372,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "William Ewart Gladstone",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1892,
     end: 1894,
@@ -380,7 +380,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Archibald Primrose",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1894,
     end: 1895,
@@ -388,7 +388,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Robert Gascoyne-Cecil",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1895,
     end: 1902,
@@ -396,7 +396,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Arthur Balfour",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1902,
     end: 1905,
@@ -404,7 +404,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Henry Campbell-Bannerman",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1905,
     end: 1908,
@@ -412,7 +412,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "H. H. Asquith",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1908,
     end: 1916,
@@ -420,7 +420,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "David Lloyd George",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Liberal"],
     start: 1916,
     end: 1922,
@@ -428,7 +428,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Andrew Bonar Law",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1922,
     end: 1923,
@@ -436,7 +436,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Stanley Baldwin",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1923,
     end: 1924,
@@ -444,7 +444,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Ramsay MacDonald",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Labour"],
     start: 1924,
     end: 1924,
@@ -452,7 +452,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Stanley Baldwin",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1924,
     end: 1929,
@@ -460,7 +460,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Ramsay MacDonald",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Labour", "National Labour"],
     start: 1929,
     end: 1935,
@@ -468,7 +468,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Stanley Baldwin",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1935,
     end: 1937,
@@ -476,7 +476,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Neville Chamberlain",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1937,
     end: 1940,
@@ -484,7 +484,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Winston Churchhill",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1940,
     end: 1945,
@@ -492,7 +492,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Clement Attlee",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Labour"],
     start: 1945,
     end: 1951,
@@ -500,7 +500,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Winston Churchhill",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1951,
     end: 1955,
@@ -508,7 +508,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Anthony Eden",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1955,
     end: 1957,
@@ -516,7 +516,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Harold Macmillan",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1957,
     end: 1963,
@@ -524,7 +524,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Alec Douglas-Home",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1963,
     end: 1964,
@@ -532,7 +532,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Harold Wilson",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Labour"],
     start: 1964,
     end: 1970,
@@ -540,7 +540,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Edward Heath",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1970,
     end: 1974,
@@ -548,7 +548,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Harold Wilson",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Labour"],
     start: 1974,
     end: 1976,
@@ -556,7 +556,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "James Callaghan",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Labour"],
     start: 1976,
     end: 1979,
@@ -564,7 +564,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Margaret Thatcher",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1979,
     end: 1990,
@@ -573,7 +573,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "John Major",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 1990,
     end: 1997,
@@ -581,7 +581,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Tony Blair",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Labour"],
     start: 1997,
     end: 2007,
@@ -589,7 +589,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Gordon Brown",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Labour"],
     start: 2007,
     end: 2010,
@@ -597,7 +597,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "David Cameron",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 2010,
     end: 2016,
@@ -605,7 +605,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Theresa May",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 2016,
     end: 2019,
@@ -614,7 +614,7 @@ const BritishIslesPeriods = [
   },
   {
     name: "Boris Johnson",
-    flows: { British: true },
+    flows: { British: true, London: true },
     party: ["Conservative"],
     start: 2019,
     end: "At Least 2021",

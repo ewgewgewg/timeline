@@ -5,6 +5,9 @@ const flows = {
   Egypt: {
     name: "Egypt",
   },
+  London: {
+    name: "London",
+  },
   British: {
     name: "British",
   },
