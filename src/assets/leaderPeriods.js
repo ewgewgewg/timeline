@@ -10,6 +10,7 @@ import PortugalPeriods from "./Portugal";
 import GermanyPeriods from "./Germany";
 import RomePeriods from "./Rome";
 import ChinaPeriods from "./China";
+import JapanPeriods from "./Japan";
 
 let leaderPeriods = [
   //Sweden
@@ -2095,6 +2096,7 @@ leaderPeriods = [
   ...RomePeriods,
   ...leaderPeriods,
   ...ChinaPeriods,
+  ...JapanPeriods,
 ];
 
 export default leaderPeriods;
