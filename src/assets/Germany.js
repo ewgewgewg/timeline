@@ -110,7 +110,101 @@ const GermanyPeriods = [
     note: "emperor from 1111",
     link: "https://en.wikipedia.org/wiki/Henry_V,_Holy_Roman_Emperor",
   },
-
+  //Supplinburg
+  {
+    name: "Lothair II",
+    flows: { "Holy Roman Empire": true, Salian: true },
+    start: 1125,
+    end: 1137,
+    note: "emperor from 1133",
+    link: "https://en.wikipedia.org/wiki/Lothair_II,_Holy_Roman_Emperor",
+  },
+  //Staufen
+  {
+    name: "Frederick I",
+    flows: { "Holy Roman Empire": true, Staufen: true },
+    start: 1152,
+    end: 1190,
+    note: "emperor from 1155",
+    link: "https://en.wikipedia.org/wiki/Frederick_I,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Henry VI",
+    flows: { "Holy Roman Empire": true, Staufen: true },
+    start: 1169,
+    end: 1197,
+    note: "emperor from 1191",
+    link: "https://en.wikipedia.org/wiki/Henry_VI,_Holy_Roman_Emperor",
+  },
+  //Welf
+  {
+    name: "Otto IV",
+    flows: { "Holy Roman Empire": true, Staufen: true },
+    start: 1198,
+    end: 1215,
+    note: "emperor from 1209",
+    link: "https://en.wikipedia.org/wiki/Otto_IV,_Holy_Roman_Emperor",
+  },
+  //Staufen
+  {
+    name: "Frederick II",
+    flows: { "Holy Roman Empire": true, Staufen: true },
+    start: 1212,
+    end: 1250,
+    note: "emperor from 1220",
+    link: "https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor",
+  },
+  //break
+  //Habsburg
+  {
+    name: "Frederick III",
+    flows: { "Holy Roman Empire": true, Habsburg: true },
+    start: 1440,
+    end: 1493,
+    note: "emperor from 1452",
+    link: "https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Maximilian I",
+    flows: { "Holy Roman Empire": true, Habsburg: true },
+    start: 1486,
+    end: 1519,
+    note: "emperor from 1508",
+    link: "https://en.wikipedia.org/wiki/Maximilian_I,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Charles V",
+    flows: { "Holy Roman Empire": true, Habsburg: true },
+    start: 1519,
+    end: 1556,
+    note: "emperor from 1519",
+    link: "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Ferdinand I",
+    flows: { "Holy Roman Empire": true, Habsburg: true },
+    start: 1531,
+    end: 1564,
+    note: "emperor from 1556",
+    link: "https://en.wikipedia.org/wiki/Ferdinand_I,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Maximilian II",
+    flows: { "Holy Roman Empire": true, Habsburg: true },
+    start: 1562,
+    end: 1576,
+    note: "emperor from 1564",
+    link: "https://en.wikipedia.org/wiki/Maximilian_II,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Rudolph II",
+    flows: { "Holy Roman Empire": true, Habsburg: true },
+    start: 1575,
+    end: 1612,
+    note: "emperor from 1576",
+    link: "https://en.wikipedia.org/wiki/Rudolf_II,_Holy_Roman_Emperor",
+  },
+  //break
   //Prussia
   {
     name: "Frederick I",
