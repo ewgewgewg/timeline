@@ -151,6 +151,12 @@ const flows = {
     name: "Qing Dynasty",
     dynasty: true,
   },
+  Japan: {
+    name: "Japan",
+  },
+  "Japanese Emperors": {
+    name: "Japanese Emperors",
+  },
 };
 
 export default flows;
