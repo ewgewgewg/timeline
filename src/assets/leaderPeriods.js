@@ -308,6 +308,7 @@ let leaderPeriods = [
     flows: { Russia: true },
     start: 1741,
     end: 1761,
+    gender: "female",
     link: "https://en.wikipedia.org/wiki/Elizabeth_Petrovna",
   },
   {
