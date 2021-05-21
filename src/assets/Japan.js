@@ -49,6 +49,7 @@ const JapanPeriods = [
     start: 642,
     end: 645,
     gender: "female",
+    note: "same person as Empress Saimei",
     link: "https://en.wikipedia.org/wiki/Empress_K%C5%8Dgyoku",
   },
   {
@@ -64,6 +65,7 @@ const JapanPeriods = [
     start: 655,
     end: 661,
     gender: "female",
+    note: "same person as Empress Kōgyoku",
     link: "https://en.wikipedia.org/wiki/Empress_K%C5%8Dgyoku",
   },
   {
