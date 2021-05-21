@@ -103,23 +103,32 @@ let leaderPeriods = [
   //Habsburg-Lorraine
   {
     name: "Joseph II",
-    flows: { "Habsburg-Lorraine": true },
+    flows: { "Holy Roman Empire": true, "Habsburg-Lorraine": true },
     start: 1765,
     end: 1790,
     link: "https://en.wikipedia.org/wiki/Joseph_II,_Holy_Roman_Emperor",
   },
   {
     name: "Leopold II",
-    flows: { "Habsburg-Lorraine": true },
+    flows: { "Holy Roman Empire": true, "Habsburg-Lorraine": true },
     start: 1790,
     end: 1792,
     link: "https://en.wikipedia.org/wiki/Leopold_II,_Holy_Roman_Emperor",
   },
   {
-    name: "Francis",
+    name: "Francis II",
+    flows: { "Holy Roman Empire": true, "Habsburg-Lorraine": true },
+    start: 1792,
+    end: 1806,
+    note: "same as Francis I -- Habsburg-Lorraine",
+    link: "https://en.wikipedia.org/wiki/Francis_II,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Francis I",
     flows: { "Habsburg-Lorraine": true },
     start: 1792,
     end: 1835,
+    note: "same as Francis II of Holy Roman Empire",
     link: "https://en.wikipedia.org/wiki/Francis_II,_Holy_Roman_Emperor",
   },
   {

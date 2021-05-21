@@ -1,4 +1,116 @@
 const GermanyPeriods = [
+  //Frankish
+  //Carolingian
+  {
+    name: "Charlemagne",
+    flows: { "Holy Roman Empire": true, Carolingian: true },
+    start: 800,
+    end: 814,
+    link: "https://en.wikipedia.org/wiki/Charlemagne",
+  },
+  {
+    name: "Louis I",
+    flows: { "Holy Roman Empire": true, Carolingian: true },
+    start: 813,
+    end: 840,
+    link: "https://en.wikipedia.org/wiki/Louis_the_Pious",
+  },
+  {
+    name: "Lothair I",
+    flows: { "Holy Roman Empire": true, Carolingian: true },
+    start: 823,
+    end: 855,
+    link: "https://en.wikipedia.org/wiki/Lothair_I",
+  },
+  {
+    name: "Louis II",
+    flows: { "Holy Roman Empire": true, Carolingian: true },
+    start: 855,
+    end: 875,
+    link: "https://en.wikipedia.org/wiki/Louis_II_of_Italy",
+  },
+  {
+    name: "Charles II",
+    flows: { "Holy Roman Empire": true, Carolingian: true },
+    start: 875,
+    end: 877,
+    link: "https://en.wikipedia.org/wiki/Charles_the_Bald",
+  },
+  {
+    name: "Charles III",
+    flows: { "Holy Roman Empire": true, Carolingian: true },
+    start: 881,
+    end: 888,
+    link: "https://en.wikipedia.org/wiki/Charles_the_Fat",
+  },
+  //Restoration
+  //Ottonian
+  {
+    name: "Otto I",
+    flows: { "Holy Roman Empire": true, Ottonian: true },
+    start: 936,
+    end: 973,
+    note: "emperor from 962",
+    link: "https://en.wikipedia.org/wiki/Otto_I,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Otto II",
+    flows: { "Holy Roman Empire": true, Ottonian: true },
+    start: 961,
+    end: 983,
+    note: "emperor from 967",
+    link: "https://en.wikipedia.org/wiki/Otto_II,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Otto III",
+    flows: { "Holy Roman Empire": true, Ottonian: true },
+    start: 983,
+    end: 1002,
+    note: "emperor from 996",
+    link: "https://en.wikipedia.org/wiki/Otto_III,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Henry II",
+    flows: { "Holy Roman Empire": true, Ottonian: true },
+    start: 1002,
+    end: 1024,
+    note: "emperor from 1014",
+    link: "https://en.wikipedia.org/wiki/Henry_II,_Holy_Roman_Emperor",
+  },
+  //Salian
+  {
+    name: "Conrad II",
+    flows: { "Holy Roman Empire": true, Salian: true },
+    start: 1024,
+    end: 1039,
+    note: "emperor from 1027",
+    link: "https://en.wikipedia.org/wiki/Conrad_II,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Henry III",
+    flows: { "Holy Roman Empire": true, Salian: true },
+    start: 1028,
+    end: 1056,
+    note: "emperor from 1046",
+    link: "https://en.wikipedia.org/wiki/Henry_III,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Henry IV",
+    flows: { "Holy Roman Empire": true, Salian: true },
+    start: 1054,
+    end: 1106,
+    note: "emperor from 1056",
+    link: "https://en.wikipedia.org/wiki/Henry_IV,_Holy_Roman_Emperor",
+  },
+  {
+    name: "Henry V",
+    flows: { "Holy Roman Empire": true, Salian: true },
+    start: 1099,
+    end: 1125,
+    note: "emperor from 1111",
+    link: "https://en.wikipedia.org/wiki/Henry_V,_Holy_Roman_Emperor",
+  },
+
   //Prussia
   {
     name: "Frederick I",

@@ -35,6 +35,9 @@ const flows = {
     name: "Bonaparte",
     dynasty: true,
   },
+  "Holy Roman Empire": {
+    name: "Holy Roman Empire",
+  },
   Prussia: {
     name: "Prussia",
   },
