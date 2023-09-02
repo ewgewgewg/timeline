@@ -24,12 +24,18 @@ function App() {
     return new Array(columns).fill().map((a) => <Timeline />);
   };
 
+  const style = {
+    backgroundColor: 'white',
+    margin: '0px 16px',
+    padding: '0px 8px'
+  }
+
   return (
     <div className="App">
       <div className="header">
         <div className="selectColumns">
           <div>Select Number of Columns and Flow Display, or Use Utility</div>
-          <Select value={columns} onChange={selectColumns}>
+          <Select value={columns} onChange={selectColumns} style={style}>
             <MenuItem value={1}>One</MenuItem>
             <MenuItem value={2}>Two</MenuItem>
             <MenuItem value={3}>Three</MenuItem>
@@ -39,7 +45,7 @@ function App() {
         </div>
         <div className="utilities">
           <div className="year">Utility: Year or Leader</div>
-          <TextField onChange={basicSearch} />
+          <TextField onChange={basicSearch} style={style}/>
         </div>
       </div>
       <div className="body">{makeDisplay(basicSearchTerm)}</div>
