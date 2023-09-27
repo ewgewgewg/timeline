@@ -1,6 +1,6 @@
 # Timeline
 
-This project allows for comparisons between world leaders and is inspired by https://omniatlas.com/. Select leadership lines from the dropdowns or use the search (use the prefixes late*, early*, long*, or short* to sort the search data, and/or use the prefix f* to highlight the ~4% of leaders flagged as women). Click a link to go to the relevant Wikipedia page.
+This project allows for comparisons between world leaders and is inspired by https://omniatlas.com/. Select leadership lines from the dropdowns or use the search (use the prefixes late*, early*, long*, or short* to sort the search data, and/or use the prefix f* to highlight the ~4% of leaders flagged as women -- other traits could be available with more data). Click a link to go to the relevant Wikipedia page.
 
 # Getting Started with Create React App
 
